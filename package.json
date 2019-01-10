@@ -1,0 +1,27 @@
+{
+  "name": "Taxy-Page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass --watch scss/styles.scss css/styles.css",
+    "compile:prefixer": "autoprefixer-cli -o css/styles.prefixed.css css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paszak/Taxy-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paszak/Taxy-Page/issues"
+  },
+  "homepage": "https://github.com/Paszak/Taxy-Page#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "node-sass": "^4.11.0",
+    "nu-html-checker": "^0.1.0"
+  }
+}
