@@ -7,7 +7,7 @@
     "compile:sass": "node-sass --watch scss/styles.scss css/styles.css",
     "compile:prefixer": "onchange -d 100 css/styles.css -- autoprefixer-cli -o css/styles.prefixed.css css/styles.css",
     "compile:htmlcheck": "onchange index.html -- globstar nu-html-checker *.html",
-    "start": "npm-run-all -p compile:*"    
+    "start": "npm-run-all -p compile:*"
   },
   "repository": {
     "type": "git",

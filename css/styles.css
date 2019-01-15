@@ -1,4 +1,4 @@
 h1 {
   display: flex;
-  color: blue;
+  color: red;
   transition: width 2s, height 4s; }
