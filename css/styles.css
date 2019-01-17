@@ -1,4 +1,35 @@
-h1 {
-  display: flex;
-  color: red;
-  transition: width 2s, height 4s; }
+@import url("https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Open+Sans|PT+Sans:400");
+body {
+  font-family: 'PT Sans', sans-serif; }
+
+.container {
+  max-width: 1440px; }
+
+nav > .navbar-brand {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 2.25rem; }
+
+nav #brand {
+  color: yellow; }
+
+nav .navbar-nav {
+  padding-left: 1.5rem; }
+
+nav ul li a {
+  font-size: 1.33rem; }
+
+nav span {
+  font-size: 2.5rem;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: bold;
+  letter-spacing: 3px; }
+
+.jumbotron h1 {
+  font-family: 'Open Sans', sans-serif; }
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.4rem;
+    padding-left: 1.4rem; }
+  .jumbotron {
+    margin-top: 56px; } }
