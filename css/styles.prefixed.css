@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Open+Sans|PT+Sans:400");
 body {
-  font-family: 'PT Sans', sans-serif; }
+  font-family: 'PT Sans', sans-serif;
+  background-color: #d7dee5; }
 
 .container {
   max-width: 1440px; }
@@ -53,6 +54,9 @@ nav span {
     .jumbotron .hero p:last-child > span {
       text-transform: uppercase;
       text-decoration: underline; }
+
+.carousel img {
+  max-height: 700px; }
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
