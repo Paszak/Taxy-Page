@@ -75,6 +75,15 @@ nav {
 			font-family: $funny-font;
 			font-weight: bold;
 			letter-spacing: 3px;
+			margin-bottom: 0;
+		}
+		p:last-child {
+			font-size: 2.5rem;
+			color: red;
+			> span {
+				text-transform: uppercase;
+				text-decoration: underline;
+			}
 		}
 	}
 }

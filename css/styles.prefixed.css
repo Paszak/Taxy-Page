@@ -45,7 +45,14 @@ nav span {
     color: #edc500;
     font-family: "Annie Use Your Telescope", cursive;
     font-weight: bold;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    margin-bottom: 0; }
+  .jumbotron .hero p:last-child {
+    font-size: 2.5rem;
+    color: red; }
+    .jumbotron .hero p:last-child > span {
+      text-transform: uppercase;
+      text-decoration: underline; }
 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
