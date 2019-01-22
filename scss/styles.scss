@@ -10,9 +10,9 @@ body {
 
 $funny-font: 'Annie Use Your Telescope', cursive;
 
-.container {
-	max-width: 1440px;
-}
+// .container {
+// 	max-width: 1440px;
+// }
 
 // Navbar
 
@@ -96,6 +96,11 @@ nav {
 	li {
 		
 	}
+}
+
+hr {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 @media (min-width: 992px){
