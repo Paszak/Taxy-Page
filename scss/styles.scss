@@ -99,6 +99,20 @@ nav {
 	}
 }
 
+.uslugi {
+	.icon {
+		display: inline-block;
+	    text-align: center;
+	    padding: 0 0 0 0;
+
+		line-height: 90px;
+		
+		i {
+			font-size: 5rem;
+		}
+	}
+}
+
 hr {
 	margin-top: 5%;
 	margin-bottom: 5%;
