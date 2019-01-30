@@ -13,9 +13,6 @@ nav #brand {
 nav .navbar-nav {
   padding-left: 1.5rem; }
 
-nav ul liactive {
-  transition: ease-in-out 1.25s; }
-
 nav ul li a {
   font-size: 1.33rem; }
 
