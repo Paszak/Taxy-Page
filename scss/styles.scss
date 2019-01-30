@@ -9,6 +9,7 @@ body {
 // font-family: 'Annie Use Your Telescope', cursive;
 
 $funny-font: 'Annie Use Your Telescope', cursive;
+$orange-color: #edc500;
 
 // .container {
 // 	max-width: 1440px;
@@ -47,8 +48,6 @@ nav {
 }
 
 
-
-
 .jumbotron {
 	background-image: url(../src/tlo.png);
 	color: white;
@@ -72,7 +71,7 @@ nav {
 		}
 		.numer{
 			font-size: 5rem;
-			color: #edc500;
+			color: $orange-color;
 			font-family: $funny-font;
 			font-weight: bold;
 			letter-spacing: 3px;
@@ -91,11 +90,11 @@ nav {
 
 
 .carousel {
-	img {
-		max-height: 700px;
+	.carousel-caption {
+		color: $orange-color;
 	}
-	li {
-		
+	.carousel-indicators li {
+		background-color: $orange-color;
 	}
 }
 
@@ -135,7 +134,19 @@ hr {
 }
 
 //Jeżeli litery będą za duże na mobilce
+@media (max-width: 768px) {
+	.jumbotron{
+		font-size: 
+	}
 
+	.carousel {
+		.carousel-caption {
+			h1,p {
+				background-color: rgba(0, 0, 0, 0.5);
+			}
+		}
+	}
+}
 @media (max-width: 656px) {
 	.jumbotron {
 		background-image: url(../src/tlo.png);
@@ -160,7 +171,7 @@ hr {
 			}
 			.numer{
 				font-size: 3rem;
-				color: #edc500;
+				color: $orange-color;
 				font-family: $funny-font;
 				font-weight: bold;
 				letter-spacing: 3px;
@@ -176,4 +187,5 @@ hr {
 			}
 		}
 	}
+	
 }

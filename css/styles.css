@@ -52,8 +52,11 @@ nav span {
       text-transform: uppercase;
       text-decoration: underline; }
 
-.carousel img {
-  max-height: 700px; }
+.carousel .carousel-caption {
+  color: #edc500; }
+
+.carousel .carousel-indicators li {
+  background-color: #edc500; }
 
 .uslugi .icon {
   display: inline-block;
@@ -75,6 +78,10 @@ hr {
 @media (max-width: 991px) {
   .float-right {
     float: left !important; } }
+
+@media (max-width: 768px) {
+  .carousel .carousel-caption h1, .carousel .carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.5); } }
 
 @media (max-width: 656px) {
   .jumbotron {
