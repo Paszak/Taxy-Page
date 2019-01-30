@@ -34,6 +34,9 @@ nav {
 
 	ul {
 		li {
+			{
+				
+			}
 			a {
 				font-size: 1.33rem;
 			}
@@ -49,7 +52,7 @@ nav {
 
 
 .jumbotron {
-	background-image: url(../src/tlo.png);
+	background-image: url(../src/taxi-goleniow-background.png);
 	color: white;
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
@@ -99,17 +102,30 @@ nav {
 }
 
 .uslugi {
+	.row > div {
+		transition: ease-in-out 1.25s;
+		&:hover {
+			transform: scale(1.10);
+			// transition: ease-in-out 1.5s;
+			.icon, strong {
+				color: $orange-color;
+				
+			}
+		}
+	}
 	.icon {
 		display: inline-block;
 	    text-align: center;
 	    padding: 0 0 0 0;
-
 		line-height: 90px;
-		
+		transition: color 1s ease-in-out;
 		i {
 			font-size: 5rem;
 		}
 	}
+	strong {
+			transition: color 1s ease-in-out;
+		}
 }
 
 hr {
