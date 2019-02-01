@@ -22,6 +22,10 @@ nav span {
   font-weight: bold;
   letter-spacing: 3px; }
 
+#start > img {
+  position: absolute;
+  max-width: 200px; }
+
 .jumbotron {
   background-image: url(../src/taxi-goleniow-background.png);
   color: white;
