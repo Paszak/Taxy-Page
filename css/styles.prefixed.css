@@ -25,14 +25,13 @@ nav span {
 #start > .payment {
   position: absolute;
   max-width: 200px;
-  right: 0%;
-  top: 7%; }
+  right: 2%; }
 
 #start > .flags {
   position: absolute;
   max-width: 123px;
   left: 2%;
-  top: 13%; }
+  margin-top: 5px; }
 
 .jumbotron {
   background-image: url(../src/taxi-goleniow-background.png);
@@ -147,4 +146,6 @@ hr {
   footer {
     font-size: 0.85rem; }
   #start > .payment {
-    right: -8%; } }
+    max-width: 50%; }
+  #start > .flags {
+    max-width: 33%; } }
