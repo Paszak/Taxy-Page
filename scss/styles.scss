@@ -47,10 +47,21 @@ nav {
 	}
 }
 
-#start > img {
+#start {
+	> .payment {
 	position: absolute;
 	max-width: 200px;
+	right:0%;
+	top: 7%;
+	}
+	> .flags {
+		position: absolute;
+		max-width: 200px;
+		left:0%;
+		top: 7%;
+	}
 }
+
 
 .jumbotron {
 	background-image: url(../src/taxi-goleniow-background.png);
