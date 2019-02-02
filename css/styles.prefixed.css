@@ -4,7 +4,6 @@ body {
   background-color: #d7dee5; }
 
 nav > .navbar-brand {
-  font-family: "Annie Use Your Telescope", cursive;
   font-size: 2.25rem; }
 
 nav #brand {
@@ -18,7 +17,6 @@ nav ul li a {
 
 nav span {
   font-size: 2.5rem;
-  font-family: "Annie Use Your Telescope", cursive;
   font-weight: bold;
   letter-spacing: 3px; }
 
@@ -53,7 +51,6 @@ nav span {
   .jumbotron .hero .numer {
     font-size: 5rem;
     color: #edc500;
-    font-family: "Annie Use Your Telescope", cursive;
     font-weight: bold;
     letter-spacing: 3px;
     margin-bottom: 0; }
@@ -127,7 +124,6 @@ hr {
     .jumbotron .hero .numer {
       font-size: 3rem;
       color: #edc500;
-      font-family: "Annie Use Your Telescope", cursive;
       font-weight: bold;
       letter-spacing: 3px;
       margin-bottom: 0; }

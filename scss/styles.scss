@@ -8,7 +8,6 @@ body {
 // font-family: 'PT Sans', sans-serif;
 // font-family: 'Annie Use Your Telescope', cursive;
 
-$funny-font: 'Annie Use Your Telescope', cursive;
 $orange-color: #edc500;
 
 // .container {
@@ -19,7 +18,6 @@ $orange-color: #edc500;
 
 nav {
 	> .navbar-brand {
-		font-family: $funny-font;
 		font-size: 2.25rem;
 	};
 
@@ -41,7 +39,6 @@ nav {
 	}
 	span {
 		font-size: 2.5rem;
-		font-family: $funny-font;
 		font-weight: bold;
 		letter-spacing: 3px;
 	}
@@ -87,7 +84,6 @@ nav {
 		.numer{
 			font-size: 5rem;
 			color: $orange-color;
-			font-family: $funny-font;
 			font-weight: bold;
 			letter-spacing: 3px;
 			margin-bottom: 0;
@@ -199,7 +195,6 @@ hr {
 			.numer{
 				font-size: 3rem;
 				color: $orange-color;
-				font-family: $funny-font;
 				font-weight: bold;
 				letter-spacing: 3px;
 				margin-bottom: 0;
