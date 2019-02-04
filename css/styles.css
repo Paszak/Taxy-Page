@@ -19,6 +19,10 @@ nav span {
   font-size: 2.5rem;
   font-weight: bold;
   letter-spacing: 3px; }
+  nav span a {
+    color: #edc500; }
+    nav span a:hover {
+      color: #edc500; }
 
 #start > .payment {
   position: absolute;
@@ -48,7 +52,7 @@ nav span {
   .jumbotron .hero .lead {
     margin-top: 1.25rem;
     font-size: 1.5rem; }
-  .jumbotron .hero .numer {
+  .jumbotron .hero .numer a {
     font-size: 5rem;
     color: #edc500;
     font-weight: bold;

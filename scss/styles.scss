@@ -41,6 +41,12 @@ nav {
 		font-size: 2.5rem;
 		font-weight: bold;
 		letter-spacing: 3px;
+		a {
+			color: $orange-color;
+			&:hover {
+				color: $orange-color;
+			}
+		}
 	}
 }
 
@@ -81,7 +87,7 @@ nav {
 			margin-top: 1.25rem;
 			font-size: 1.5rem;
 		}
-		.numer{
+		.numer a{
 			font-size: 5rem;
 			color: $orange-color;
 			font-weight: bold;
