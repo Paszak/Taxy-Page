@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Open+Sans|PT+Sans:400");
 body {
   font-family: 'PT Sans', sans-serif;
-  background-color: #d7dee5; }
+  background-color: rgba(234, 191, 0, 0.1); }
 
 nav > .navbar-brand {
   font-size: 2.25rem; }
@@ -92,6 +92,10 @@ nav span {
     transition: color 1s ease-in-out; }
 
 hr {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.mail {
   margin-top: 5%;
   margin-bottom: 5%; }
 
