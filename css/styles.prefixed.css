@@ -152,4 +152,6 @@ hr {
   #start > .payment {
     max-width: 50%; }
   #start > .flags {
-    max-width: 33%; } }
+    max-width: 33%; }
+  .mail h2 > a {
+    font-size: 1.5rem; } }
