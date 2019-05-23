@@ -29,5 +29,8 @@
     "nu-html-checker": "^0.1.0",
     "onchange": "^5.2.0",
     "superagent": ">=3.7.0"
+  },
+  "dependencies": {
+    "yoastseo": "^1.52.0"
   }
 }
