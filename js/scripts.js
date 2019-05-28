@@ -24,3 +24,4 @@ $(document).ready(function () {
         $('#navbarSupportedContent').removeClass('show');
     });
 });
+
