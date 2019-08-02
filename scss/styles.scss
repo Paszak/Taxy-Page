@@ -173,6 +173,22 @@ hr {
   margin-bottom: 5%;
 }
 
+.contact {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  .contact-data {
+    margin-top: 3%;
+    > p {
+      margin-bottom: 0.5%;
+      font-size: 1.4rem;
+      text-align: left;
+      margin-left: 15%;
+      font-weight: lighter;
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.4rem;
