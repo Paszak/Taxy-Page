@@ -179,6 +179,7 @@ hr {
 
   .contact-data {
     margin-top: 3%;
+
     > p {
       margin-bottom: 0.5%;
       font-size: 1.4rem;
@@ -187,6 +188,10 @@ hr {
       font-weight: lighter;
     }
   }
+}
+
+.video video {
+  max-width: 100%;
 }
 
 @media (min-width: 992px) {

@@ -111,6 +111,9 @@ hr {
       margin-left: 15%;
       font-weight: lighter; }
 
+.video video {
+  max-width: 100%; }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.4rem;
