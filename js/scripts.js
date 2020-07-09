@@ -4,6 +4,6 @@ $(document).ready(function () {
     });
 });
 
-$(window).on('load',function (){
-    $('#kwarantanna').modal('show');
-});
+// $(window).on('load',function (){
+//     $('#kwarantanna').modal('show');
+// });
